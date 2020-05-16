@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1 class="align">Rock Paper Scissors Game</h1>
+    <div class="score-line align">
+        <div class="inline">You</div>
+        <div id = "you-score" class=" inline you-score">0</div>
+        <span>-</span>
+        <div id = "computer-score" class="inline computer-score">0</div>
+        <div class="inline">Comp</div>
+    </div>
+    <div class="buttons align">
+        <div class="btn stone" id="stone"><i class="far fa-hand-rock"></i></div>
+        <div class="btn paper" id="paper"><i class="far fa-hand-paper"></i></div>
+        <div class="btn scissors" id="scissors"><i class="far fa-hand-scissors"></i></div>
+    </div>
+    <div class="results align">
+        <div class="your-hand display-btn"><i></i></div>
+        <div class="result inline"></div>
+        <div class="computer-hand display-btn"><i></i></div>
+    </div>
+    <div class="userComputer">
+        <div class="user names visibility">You</div>
+        <div class="computer names visibility">Computer</div>
+    </div>
+    <script src = "index.js"></script>
+</body>
+</html>
